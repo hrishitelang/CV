@@ -1,5 +1,11 @@
+#h:hover{
+  color: red;
+}
+a:hover {
+  color: #7579e7;
+}
 body{
-  background-color: #d9e4dd;
+  background-color: #b9fffc;
 }
 
 hr{
@@ -26,7 +32,17 @@ h3{
   text-align: center;
 }
 
+/*h1:hover{
+  color: #7579e7;
+}*/
+h1:hover, h3:hover{
+  color: #7579e7;
+}
+
 img.center {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
     display: block;
     margin: auto;
 }
